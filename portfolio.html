@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,700&family=Roboto:ital,wght@1,700&display=swap" 
+      rel="stylesheet">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>homework2</title>
@@ -9,48 +13,123 @@
     <link rel="stylesheet" href="/styles/styles.css">
   </head>
 <body>
-    <!-- Page header -->
+    <!-- Encabezado de pagina -->
     <header>
-        <!-- Main navigation -->
-        <nav>
-            <!--Links to other pages or sections of the current page -->
-          <ul>
+        <!-- Navigacion principal -->
+        <div class="nav-menu">
+        
+                <!-- El logo siempre es un link -->
+              <a href="https://www.google.com/" target="_blank" class="web-logo" >WebEstudio</a>
+            
+            <!--Links a otras paginas o seccciones de la pagina actual -->  
+            <nav>
+            <ul>
             <li>
-                <!-- The logo is always a link -->
-              <a href="https://www.google.com/" target="_blank">WebEstudio</a>
+              <a href="https://jimbryan02.github.io/goit-markup-hw-01/" class="link">Estudio</a>
             </li>
             <li>
-              <a href="https://jimbryan02.github.io/goit-markup-hw-01/">Estudio</a>
+              <a href="https://jimbryan02.github.io/goit-markup-hw-02/" class="link">Portafolio</a>
             </li>
             <li>
-              <a href="https://jimbryan02.github.io/goit-markup-hw-02/">Portafolio</a>
-            </li>
-            <li>
-              <a href="https://www.google.com/" target="_blank">Contactos</a>
+              <a href="https://www.google.com/" target="_blank" class="link">Contactos</a>
             </li>
           </ul>
         </nav>
-        
-        <!-- contact info -->
-        <a href="https://www.google.com/" target="_blank">info@devstudio.com</a>
-        <a href="https://www.google.com/" target="_blank">+57 55 5529 6000</a>
+        </div> 
+
+        <!-- Informaciond de contacto en encabezado -->
+        <div class="header-contact-info">
+        <ul>   
+        <li><a href="https://www.google.com/" target="_blank"> info@devstudio.com</a></li>
+        <li><a href="https://www.google.com/" target="_blank">+57 55 5529 6000</a></li>
+        </ul>
+        </div>
       </header>
 
-      <!-- Unique page content -->
+      <!-- Contenido unico de la pagina -->
       <main>
-        <!-- Buttons section -->
-        <section class="buttons">
-            <button type="button">todo</button>
-            <button type="button">Sitios-web</button>
-            <button type="button">Aplicaciones</button>
-            <button type="button">Diseno</button>
-            <button type="button">Marketing</button>
-        </section>
-        
-        <section>
+        <!-- Seccion de botones -->
+        <div class="portfolio-filter">
+            <ul>
+            <li><button type="button" class="buttons">Todo</button></li>
+            <li><button type="button" class="buttons">Sitios-web</button></li>
+            <li><button type="button" class="buttons">Aplicaciones</button></li>
+            <li><button type="button" class="buttons">Diseno</button></li>
+            <li><button type="button" class="buttons">Marketing</button></li>
+            </ul>
+        </div>
 
-        </section>
+        <!-- Seccion del portafolio -->
+        <div class="portfolio">
+            <div class="card portfolio">
+                <img class="card-image" src="./imagenes/tecnoduckwebsite.jpg" alt="tecnoducksitioweb" width="370">
+                <h2 class="card-heading">Tecnoduck</h2>
+                <p>Sitios-web</p>
+              </div>
+
+              <div class="card">
+                <img class="card-image" src="./imagenes/neworleansvsgoldenstar.jpg" alt="neworleansvsestrelladorada" width="370">
+                <h2 class="card-heading">Poster de Nueva Orleans vs Estrella Dorada</h2>
+              </div>
+
+              <div class="card">
+                <img class="card-image" src="./imagenes/restaurant.jpg" alt="restaurante" width="370">
+                <h2 class="card-heading">Restaurante Seafood</h2>
+                <p>Aplicaciones</p>
+              </div>
+
+              <div class="card">
+                <img class="card-image" src="./imagenes/primeproject.jpg" alt="proyectoprime" width="370">
+                <h2 class="card-heading">Proyecto Prime</h2>
+                <p>Marketing</p>
+              </div>
+
+              <div class="card">
+                <img class="card-image" src="./imagenes/boxesproject.jpg" alt="proyectocajas" width="370">
+                <h2 class="card-heading">Proyecto cajas</h2>
+                <p>Aplicaciones</p>
+              </div>
+
+              <div class="card">
+                <img class="card-image" src="./imagenes/limitlessinspirationwebsite.jpg" alt="inspiracionsinlimites" width="370">
+                <h2 class="card-heading">La inspiracion no tiene limites</h2>
+                <p>Sitios-web</p>
+              </div>
+
+              <div class="card">
+                <img class="card-image" src="./imagenes/limitededition.jpg" alt="edicionlimitada" width="370">
+                <h2 class="card-heading">Edicion Limitada</h2>
+                <p>Diseño</p>
+              </div>
+
+              <div class="card">
+                <img class="card-image" src="./imagenes/labproject.jpg" alt="proyectolab" width="370">
+                <h2 class="card-heading">Proyecto LAB</h2>
+                <p>Marketing</p>
+              </div>
+
+              <div class="card">
+                <img class="card-image" src="./imagenes/growingbussiness.jpg" alt="negocioencrecimiento" width="370">
+                <h2 class="card-heading">Negocio en Crecimiento</h2>
+                <p>Aplicaiones</p>
+              </div>
+        </div>
       </main>
+
+        <!--Pie de pagina-->
+    <footer>
+        <div class="footer-contact-info container">
+            <!-- El logo siempre es un link -->
+            <a href="https://www.google.com/" target="_blank" class="web-logo" >WebEstudio</a>
+
+            <!--Informacion de contacto en pie de pagina-->
+            <ul>
+            <li><a href="https://www.google.com/" target="_blank" class="info">Calz. Ticomán 500, Ciudad de México, CDMX, México</a></li>
+            <li><a href="https://www.google.com/" target="_blank" class="info">info@devstudio.com</a></li>
+            <li><a href="https://www.google.com/" target="_blank" class="info">+57 55 5529 6000</a></li>
+            </ul> 
+        </div>
+      </footer>
     
 </body>
 </html>
