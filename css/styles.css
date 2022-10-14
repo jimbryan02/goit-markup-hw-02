@@ -1,4 +1,10 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 
+/* El resto del código */
 :root {
     --pseudo-classes: #2196F3;
     --card-text-color: #757575;

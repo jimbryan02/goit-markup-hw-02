@@ -110,25 +110,62 @@ color: var(--pseudo-classes);
    border-radius: 4px;
   }
 
+   
+/* caracteristicas de la pagina */
   h2{
     text-align: center;
   }
 
-
-  .features,
-  .images,
-  .staff-members {
-    display: flex;
-    justify-content: center;
+  .feature-title{
+    color: #212121;
+    width: 270px;
+    height: 16px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase; 
   }
 
-  img,
+  .feature-text{
+    color: #757575;
+    width: 270px;
+    height: 96px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+  }
+
+  .features {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 95px;
+    }
+
+    
+
+  .images {
+    display: flex;
+    margin-top:95px;
+  }
+
+
+  .staff-members {
+    display: flex;
+    justify-content: space-evenly;
+    
+  }
+
   .feature1,
   .feature2,
   .feature3
   .feature4 {
-    margin: 0 30px;
+    margin-top:95px;
+    
   }
+
+
  
 /* Informacion de contacto en pie de pagina */
   
