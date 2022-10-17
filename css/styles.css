@@ -20,6 +20,13 @@ body {
   }
 
    /* Menu de navegacion */
+
+  .nav-links{
+  display: flex;
+  justify-content: space-evenly;
+
+  } 
+
    .nav-menu .link {
     color: inherit;
     font-weight: 500;
@@ -175,7 +182,6 @@ body {
     font-size: 16px;
     line-height: 30px;
     margin: 0 auto;
-    
   }
    
 /* caracteristicas de la pagina */
