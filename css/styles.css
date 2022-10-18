@@ -5,12 +5,14 @@
 }
 
 /* El resto del código */
-:root {
-    --pseudo-classes: #2196F3;
-    --card-text-color: #757575;
-    --footer-text-color: #FFFFFF;
-    --buttons-background-color:#F5F4FA;
+:root { 
+  
+  --pseudo-classes: #2196F3;
+  --card-text-color: #757575;
+  --footer-text-color: #FFFFFF;
+  --buttons-background-color:#F5F4FA;
 }
+
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -115,28 +117,7 @@ body {
   height: 252px;
 }
 
-
-
-
-
-
-
-
-
-/* El resto del código */
-
-
-/* Menu de navegacion */
-
-      
   
-/* Logo de la pagina */
-  
-
-  
-/* Informacion de contacto en cabecera */
-  
-
 /* titulo de la pagina */
 .container {
     box-sizing: border-box;
@@ -179,8 +160,12 @@ body {
   }
    
 /* caracteristicas de la pagina */
-  h2{
+  .section-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
     text-align: center;
+    letter-spacing: 0.03em;
   }
 
   .feature-title{
