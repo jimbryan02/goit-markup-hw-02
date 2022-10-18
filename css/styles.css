@@ -19,12 +19,38 @@ body {
     line-height:2;
   }
 
+   /*ENCABEZADO DEL PROYECTO*/
+
    /* Menu de navegacion */
+  .header{
+  width: 1600px;
+  height: 80px;
+  background-color: var(--footer-text-color);
+  padding-left: 215px;
+  padding-bottom: 25px;
+  padding-top: 24px;
+  padding-right: 219px;
+  }
 
-  .nav-links{
-  display: flex;
-  justify-content: space-evenly;
+   /* Logo de la pagina */
+  
+   .web-logo {
+    font-family: raleway;
+    color: #2196F3;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.1;
+    margin-right: 93px;
+    width: 145px;
+    letter-spacing: 0.03em;   
+  }
 
+  .nav-menu{
+  display: inline-flex;
+  width: 281px;
+  justify-content: space-between;
+  list-style-type: none;
+  margin-right: 344px;
   } 
 
    .nav-menu .link {
@@ -32,6 +58,8 @@ body {
     font-weight: 500;
     font-size: 14px;
     line-height:1.1;
+    width: 67px;
+    letter-spacing: 0.02em;
   }
   
   .nav-menu .link:hover,
@@ -39,19 +67,14 @@ body {
   .nav-menu .link:active {
     color: var(--pseudo-classes);
   }
-  
-  /* Logo de la pagina */
-  
-  .web-logo {
-    color: #2196F3;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.1;   
-  }
-
-  
+   
 /* Informacion de contacto en cabecera */
-  
+ 
+.header-contact-info{
+  display: inline;
+  width: 303px;
+  margin-right: 0;
+}
 .header-contact-info a:hover,
 .header-contact-info a:focus,
 .header-contact-info a:active {
@@ -63,7 +86,16 @@ body {
   font-size: 14px;
   font-weight: 500;
   line-height: 1.1;
+  letter-spacing: 0.02em;
 }
+.email {
+  margin-right: 50px;
+}
+.phone{
+  width: 118px;
+}
+
+/*CUERPO DEL PROYECTO portfolio*/
 
   /* tarjetas de imagen cuerpo de la pagina*/
 
@@ -122,29 +154,7 @@ body {
   height: 252px;
 }
 
-
-
-
-
-
-
-
-
-/* El resto del código */
-
-
-/* Menu de navegacion */
-
-      
-  
-/* Logo de la pagina */
-  
-
-  
-/* Informacion de contacto en cabecera */
-  
-
-/* titulo de la pagina */
+/* titulo de la pagina index*/
 .container {
     box-sizing: border-box;
     background-color: #2F303A;
@@ -184,9 +194,13 @@ body {
     margin: 0 auto;
   }
    
-/* caracteristicas de la pagina */
-  h2{
+/* caracteristicas de la pagina index*/
+  .section-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
     text-align: center;
+    letter-spacing: 0.03em;
   }
 
   .feature-title{
@@ -238,8 +252,5 @@ body {
     
   }
 
-
- 
-/* Informacion de contacto en pie de pagina */
   
  
