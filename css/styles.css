@@ -5,28 +5,44 @@
 }
 
 /* El resto del código */
-:root { 
-  
-  --pseudo-classes: #2196F3;
-  --card-text-color: #757575;
-  --footer-text-color: #FFFFFF;
-  --buttons-background-color:#F5F4FA;
+:root {
+    --pseudo-classes: #2196F3;
+    --card-text-color: #757575;
+    --footer-text-color: #FFFFFF;
+    --buttons-background-color:#F5F4FA;
 }
-
 
 body {
     font-family: 'Roboto', sans-serif;
     color: #212121;
-    font-size: 18px;
-    line-height:2;
+    
   }
 
+   /*ENCABEZADO DEL PROYECTO*/
+
    /* Menu de navegacion */
+  
+
+   /* Logo de la pagina */
+  
+   .web-logo {
+    font-family: raleway;
+    color: #2196F3;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.1;
+    margin-right: 93px;
+    width: 145px;
+    letter-spacing: 0.03em;   
+  }
+
    .nav-menu .link {
     color: inherit;
     font-weight: 500;
     font-size: 14px;
     line-height:1.1;
+    width: 67px;
+    letter-spacing: 0.02em;
   }
   
   .nav-menu .link:hover,
@@ -34,19 +50,9 @@ body {
   .nav-menu .link:active {
     color: var(--pseudo-classes);
   }
-  
-  /* Logo de la pagina */
-  
-  .web-logo {
-    color: #2196F3;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.1;   
-  }
-
-  
+   
 /* Informacion de contacto en cabecera */
-  
+ 
 .header-contact-info a:hover,
 .header-contact-info a:focus,
 .header-contact-info a:active {
@@ -58,7 +64,10 @@ body {
   font-size: 14px;
   font-weight: 500;
   line-height: 1.1;
+  letter-spacing: 0.02em;
 }
+
+/*CUERPO DEL PROYECTO portfolio*/
 
   /* tarjetas de imagen cuerpo de la pagina*/
 
@@ -69,7 +78,10 @@ body {
   }
 
   .card-heading{
-    font-size: inherit;
+    font-weight: 700px;
+    font-size: 18px;
+    line-height:2;
+    color: inherit;
   }
   
 
@@ -117,8 +129,7 @@ body {
   height: 252px;
 }
 
-  
-/* titulo de la pagina */
+/* titulo de la pagina index*/
 .container {
     box-sizing: border-box;
     background-color: #2F303A;
@@ -156,20 +167,19 @@ body {
     font-size: 16px;
     line-height: 30px;
     margin: 0 auto;
-    
   }
    
-/* caracteristicas de la pagina */
+/* caracteristicas de la pagina index*/
   .section-title{
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
-    text-align: center;
     letter-spacing: 0.03em;
+    color: inherit;
   }
 
   .feature-title{
-    color: #212121;
+    color: inherit;
     width: 270px;
     height: 16px;
     font-weight: 700;
@@ -189,36 +199,20 @@ body {
     letter-spacing: 0.03em;
   }
 
-  .features {
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 95px;
-    }
-
-    
-
-  .images {
-    display: flex;
-    margin-top:95px;
+  .staff-names{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: inherit;
   }
 
-
-  .staff-members {
-    display: flex;
-    justify-content: space-evenly;
-    
+  .staff-description{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  color: var(--card-text-color)
   }
-
-  .feature1,
-  .feature2,
-  .feature3
-  .feature4 {
-    margin-top:95px;
-    
-  }
-
-
- 
-/* Informacion de contacto en pie de pagina */
   
  
